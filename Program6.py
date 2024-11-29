@@ -28,7 +28,7 @@ with open('model.pickle', 'wb') as file:
 
 
 import  cv2 as cv
-imagine_path = "c:/Users/pawko/OneDrive/Pulpit/python/machine_learning/jeden.png"
+imagine_path = "jeden.png"
 image = cv.imread(imagine_path)[:,:,0]
 image = np.invert(np.array([image]))
 
