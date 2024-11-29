@@ -5,7 +5,7 @@ title = "Paweł Strepikowski"
 
 pdf = FPDF('P', 'mm', (210, 297))
 
-pdf.add_font('Inter', '', 'C:/Users/pawko/OneDrive/Pulpit/python/Main/cv/Inter-Italic-VariableFont_opsz,wght.ttf', uni=True)   
+pdf.add_font('Inter', '', 'Inter-Italic-VariableFont_opsz,wght.ttf', uni=True)   
 pdf.set_font('Inter', '', 20)
 
 kwadrat = Image.new('RGB', (50,50), (48, 110, 125) )
