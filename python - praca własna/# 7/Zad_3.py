@@ -7,7 +7,7 @@ Created on Wed Jul 24 11:44:58 2024
 """
 
 import numpy as np
-plik = open("C:/Users/pawko/OneDrive/Pulpit/python/python - praca własna/# 7/szafir SiO2 20 mkm.dat", "r")
+plik = open("szafir SiO2 20 mkm.dat", "r")
 
 U3x = []
 #U1 = []
