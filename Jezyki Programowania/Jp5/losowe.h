@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+class Generator{
+    long N;
+    double *tab;
+    long w1, w2, w3;
+    long seed;
+    public:
+    Generator();
+    Generator(long, long, long, long, long);
+    ~Generator(){};
+    void PrintGenerator(){for(int i = 0; i < N; i++){cout<<tab[i]<<endl;}};
+    friend void generacja(Generator);
+    friend void skalowanie(Generator);
+};
+
+void generacja(Generator);
+void skalowanie(Generator);
+
+
+class Histogram{
+    int *histo;
+    Histogram();
+    ~Histogram();
+    void Fill(Generator);
+    int PrintHisto();
+};
